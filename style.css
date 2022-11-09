@@ -1,0 +1,16 @@
+.box {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.div1 {
+    height: 100px;
+    width: 900px;
+    background-color: rgba(100, 10, 10, 1);
+    border-radius: 25px;
+}
