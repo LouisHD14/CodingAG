@@ -1,16 +1,25 @@
-.box {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-
-
+.# {
+    margin: 10px;
 }
 
-.div1 {
-    height: 100px;
-    width: 900px;
-    background-color: rgba(100, 10, 10, 1);
+.box {
+    width: 99%;
+    height: 96vh;
+    background-color: rgba(185, 180, 180, 1);
     border-radius: 25px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding: 10px;
+}
+
+.header1 {
+    height: 100px;
+    width: 1870px;
+    background-color: rgba(167, 160, 160, 1);
+    border-radius: 25px;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
