@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 async def read_root():
-    response = requests.get("https://www.googleapis.com/books/v1/volumes?q=random&key=AIzaSyB2CUkXUdxvolvivYFxgxmmPi7diqy2DRU")
+    response = requests.get("https://www.googleapis.com/books/v1/volumes?q=subject:fantasy&filter=ebooks&oderBy=relevance&key=AIzaSyB2CUkXUdxvolvivYFxgxmmPi7diqy2DRU")
     data = response.json()
     items = data.get('items')
     if items is None:
