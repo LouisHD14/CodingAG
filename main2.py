@@ -16,7 +16,7 @@ async def read_root():
         random_book = random.choice(items)
         title = random_book['volumeInfo']['title']
         volume_info = random_book.get('volumeInfo')
-        if volume_info is None: 
+        if volume_info is None:
             content += f"<h1>{title}</h1><p>No description available</p>"
             continue
         description = volume_info.get('description')
